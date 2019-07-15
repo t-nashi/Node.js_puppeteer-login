@@ -1,0 +1,27 @@
+{
+	"name": "webpack-starter-kit-201902",
+	"version": "0.0.0",
+	"private": true,
+	"description": "webpack環境構築",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server",
+		"dev": "webpack --mode development",
+		"watch": "webpack --mode development --watch",
+		"build": "webpack --mode production",
+		"build-config": "webpack --config webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@xxxxxxxxxx"
+	},
+	"homepage": "xxxxxxxxxx",
+	"keywords": [],
+	"author": "t-nashi",
+	"license": "MIT",
+	"devDependencies": {
+		"date-utils": "^1.2.21",
+		"puppeteer": "^1.15.0"
+	}
+}
